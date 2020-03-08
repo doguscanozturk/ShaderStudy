@@ -9,6 +9,7 @@ public class TestScript : MonoBehaviour
 
     void Start()
     {
+        /*
         Stopwatch operationTime = Stopwatch.StartNew();
         var list = new List<int>();
         for (int i = 0; i < processCount; i++)
@@ -21,10 +22,6 @@ public class TestScript : MonoBehaviour
         var milliSec = operationTime.ElapsedMilliseconds;
         var seconds = operationTime.Elapsed.Seconds;
         print($"ticks: {ticks} seconds:{seconds} milliSec: {milliSec}");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        */
     }
 }

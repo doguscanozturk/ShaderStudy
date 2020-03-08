@@ -10,7 +10,7 @@
 		
 		CGPROGRAM
 		#pragma surface surf ToonRamp
-
+		
 		float4 _Color;
 		sampler2D _RampTex;
 		
