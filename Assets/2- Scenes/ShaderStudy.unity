@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37311578, g: 0.38073987, b: 0.35873112, a: 1}
+  m_IndirectSpecularColor: {r: 0.44778407, g: 0.497765, b: 0.5754269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -524,7 +524,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.4810396e+27, y: 7.140484e+31, z: 6.271147e-39, w: 4.1272477e+30}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 8.84e-43, w: 1.0824e-41}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -535,13 +535,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.009311101, y: 0.2297261, z: -0.03941335, w: -0.9724124}
+  m_LocalRotation: {x: -0.4342111, y: 0.22249773, z: 0.0694422, w: -0.8701341}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 333.416, z: 4.642}
+  m_LocalEulerAnglesHint: {x: 46.447002, y: 319.497, z: -27.118002}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,8 +618,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.16718051, y: 0.14405145, z: -0.024695478, w: 0.97503334}
-  m_LocalPosition: {x: -1.75, y: 2.65, z: -4}
+  m_LocalRotation: {x: 0.16910203, y: 0.07467384, z: -0.012911363, w: 0.98268086}
+  m_LocalPosition: {x: -3.0069547, y: 8.139666, z: -9.64437}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1450,12 +1450,12 @@ PrefabInstance:
     - target: {fileID: 2470378350637954401, guid: deff3ed832a1039459c9ecb2490c9ee4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.15
+      value: 2.53
       objectReference: {fileID: 0}
     - target: {fileID: 2470378350637954401, guid: deff3ed832a1039459c9ecb2490c9ee4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4
+      value: -2.01
       objectReference: {fileID: 0}
     - target: {fileID: 2470378350637954401, guid: deff3ed832a1039459c9ecb2490c9ee4,
         type: 3}

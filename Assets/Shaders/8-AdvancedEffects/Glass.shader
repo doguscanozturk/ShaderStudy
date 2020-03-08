@@ -44,7 +44,7 @@
 			{
 				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
-				o.uvgrab.xy = (float2(o.vertex.x, o.vertex.y) + o.vertex.w) * 0.5;
+				o.uvgrab.xy = (float2(o.vertex.x, 1 - o.vertex.y) + o.vertex.w) * 0.5;
 				o.uvgrab.zw = o.vertex.zw;
 				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 				o.uvbump = TRANSFORM_TEX( v.uv, _BumpMap );
